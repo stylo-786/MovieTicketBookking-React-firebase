@@ -1,13 +1,13 @@
  import firebase from 'firebase';
  
  var firebaseConfig = {
-  apiKey: "AIzaSyBaFBId6GKvIkh7NJuX7oIu57XzPv9Lj4s",
-  authDomain: "multiplex-ticket-booking.firebaseapp.com",
-  projectId: "multiplex-ticket-booking",
-  storageBucket: "multiplex-ticket-booking.appspot.com",
-  messagingSenderId: "353021408587",
-  appId: "1:353021408587:web:1ec5d63e43d9598c2de4ce",
-  measurementId: "G-D400BLJC14"
+    apiKey: "AIzaSyC0ClqiyTgWKmbsBVEBcE_wRSPfgQKv29Q",
+    authDomain: "multiplex-booking.firebaseapp.com",
+    projectId: "multiplex-booking",
+    storageBucket: "multiplex-booking.appspot.com",
+    messagingSenderId: "725781854246",
+    appId: "1:725781854246:web:6392dfc65a57c7449a0ee7",
+    measurementId: "G-DM3V196Q4H"
   };
   // Initialize Firebase
    var fire = firebase.initializeApp(firebaseConfig);

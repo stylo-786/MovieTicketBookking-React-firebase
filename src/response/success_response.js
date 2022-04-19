@@ -19,7 +19,7 @@ export const Successresponse = () => {
     var ticketcost = location.state.ticketcost;
 
     const downloadTicket = () => {
-        print('AK-CINEMAS', 'booking-pdf');
+        print('Team G Cinemas', 'booking-pdf');
     }
     const returnHome = () => {
         history.push({ pathname: "/homepage", state: { profile: profile, name: username, email: email, password: password, mobile: mobile } })
@@ -36,11 +36,11 @@ export const Successresponse = () => {
             <div className="booking-pdf" >
                 <Preview id={'booking-pdf'}>
 
-                    <h1 style={{ marginLeft: "30%" }}>AK CINEMAS</h1>
+                    <h1 style={{ marginLeft: "30%" }}>Team G Cinemas</h1>
                     <p style={{ marginLeft: "30%" }}>Booking Date : {bookingdate}</p>
                     <p style={{ marginLeft: "30%" }}>Ticket Booked By : {username}</p>
-                    <p style={{ marginLeft: "30%" }}>Total Ceat : {totalceats}</p>
-                    <p style={{ marginLeft: "30%" }}>Ceat Number : {ceatnames}</p>
+                    <p style={{ marginLeft: "30%" }}>Total Seat : {totalceats}</p>
+                    <p style={{ marginLeft: "30%" }}>Seat Number : {ceatnames}</p>
                     <p style={{ marginLeft: "30%" }}>Watchers : {name}</p>
                     <p style={{ marginLeft: "30%" }}>Movie Name : {moviename}</p>
                     <p style={{ marginLeft: "30%" }}>Total Cost : {ticketcost * totalceats}</p>
